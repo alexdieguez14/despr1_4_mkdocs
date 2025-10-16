@@ -11,7 +11,22 @@ edit_uri: edit/main/docs/
 # Configuración del tema
 theme:
   name: material
+  logo: assets/images/logo.png
+  favicon: assets/images/favicon.ico  
   language: es
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
   features:
     - navigation.tabs
     - navigation.sections
@@ -20,6 +35,7 @@ theme:
     - search.share
     - content.code.annotate
     - content.code.copy
+
 
 # Plugins
 plugins:
